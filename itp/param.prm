@@ -1,0 +1,86 @@
+; ---- 
+; Built itp for fen.mol2 
+;    by user vzoete     Thu Jan 19 04:01:15 UTC 2023 
+; ---- 
+;
+
+[ atomtypes ] 
+; name at.num  mass   charge  ptype    sigma            epsilon 
+CB      6   12.0110  0.0  A         0.355005    0.292880  
+CLMM   17   35.4527  0.0  A         0.363487    1.087840  
+OR      8   15.9994  0.0  A         0.315378    0.636386  
+O=C     8   15.9994  0.0  A         0.302905    0.502080  
+C=O     6   12.0110  0.0  A         0.356359    0.460240  
+HCMM    1    1.0079  0.0  A         0.235197    0.092048  
+CR      6   12.0110  0.0  A         0.387541    0.230120  
+
+
+[ pairtypes ] 
+;  i     j    func     sigma1-4       epsilon1-4 ; THESE ARE 1-4 INTERACTIONS 
+O=C      CB     1      0.302228    0.383470 
+O=C      CLMM   1      0.306469    0.739042 
+O=C      OR     1      0.282415    0.565258 
+O=C      O=C    1      0.249452    0.502080 
+O=C      C=O    1      0.302905    0.480705 
+O=C      HCMM   1      0.242324    0.214978 
+O=C      CR     1      0.293997    0.144938 
+CR       CB     1      0.346773    0.110698 
+CR       CLMM   1      0.351014    0.213343 
+CR       OR     1      0.326960    0.163176 
+CR       C=O    1      0.347450    0.138768 
+CR       HCMM   1      0.286869    0.062059 
+CR       CR     1      0.338541    0.041840 
+
+; ---- 
+; Built itp for MC.mol2 
+;    by user vzoete     Thu Feb  2 21:07:21 UTC 2023 
+; ---- 
+;
+
+[ atomtypes ] 
+; name at.num  mass   charge  ptype    sigma            epsilon 
+
+
+
+HOR     1    1.0079  0.0  A         0.040001    0.192464  
+
+
+[ pairtypes ] 
+;  i     j    func     sigma1-4       epsilon1-4 ; THESE ARE 1-4 INTERACTIONS 
+CR       CR     1      0.338541    0.041840 
+CR       OR     1      0.326960    0.163176 
+CR       HCMM   1      0.286869    0.062059 
+CR       HOR    1      0.189271    0.089737 
+
+; ---- 
+; Built itp for tw80.mol2 
+;    by user vzoete     Wed Feb 15 07:22:19 UTC 2023 
+; ---- 
+;
+
+[ atomtypes ] 
+; name at.num  mass   charge  ptype    sigma            epsilon 
+
+
+
+
+C=C     6   12.0110  0.0  A         0.372396    0.284512  
+
+
+
+
+[ pairtypes ] 
+;  i     j    func     sigma1-4       epsilon1-4 ; THESE ARE 1-4 INTERACTIONS 
+CR       CR     1      0.338541    0.041840 
+CR       OR     1      0.326960    0.163176 
+CR       O=C    1      0.293997    0.144938 
+CR       C=O    1      0.347450    0.138768 
+CR       C=C    1      0.355469    0.109105 
+CR       HOR    1      0.189271    0.089737 
+CR       HCMM   1      0.286869    0.062059 
+O=C      OR     1      0.282415    0.565258 
+O=C      O=C    1      0.249452    0.502080 
+O=C      C=O    1      0.302905    0.480705 
+O=C      C=C    1      0.310924    0.377952 
+O=C      HOR    1      0.144726    0.310857 
+O=C      HCMM   1      0.242324    0.214978 
