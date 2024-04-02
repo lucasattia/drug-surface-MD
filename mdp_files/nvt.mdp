@@ -1,7 +1,7 @@
 ; run control
 integrator	= md		
 dt			= 0.00175			; 1.75 fs
-nsteps		= 5500000			; = 9.625 ns 
+nsteps		= 11000000			; = 19.25 ns 
 ;define		= -DPOSRES		; 
 
 ; Ooutput control
