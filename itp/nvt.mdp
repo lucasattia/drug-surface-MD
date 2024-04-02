@@ -1,0 +1,53 @@
+; run control
+integrator	= md		
+dt			= 0.00175			; 1.75 fs
+nsteps		= 5500000			; = 9.625 ns 
+;define		= -DPOSRES		; 
+
+; Ooutput control
+nstxout     = 5500000			; steps per position save
+nstvout     = 5500000			; not outputting trr
+nstfout     = 5500000			; not outputting trr
+
+nstxtcout   = 500			;
+nstlog      = 500			; steps per log entry
+nstenergy   = 50			; steps per energy file entry
+energygrps = top	nontop	MC	TW80               ;
+
+
+; cutoffs
+cutoff-scheme	= Verlet
+nstlist			= 10		; neighbor list update frequency
+ns_type			= grid		; neighbor list method (simple, grid)
+pbc				= xyz 		; periodic boundary conditions
+rlist			= 1.122		; short range cutoff
+;nwall			= 2
+;wall-atomtype   = WL WL
+;wall-type = 12-6
+;wall-r-linpot = 1
+
+coulombtype		= PME		; method for electrostatics
+;ewald_geometry		= 3dc
+rcoulomb		= 1.122		; Short-range electrostatic cutoff
+rvdw			= 1.122		; van der Waals cutoff
+DispCorr	= EnerPres		; long-distance contributions to E, P
+
+; temperature control
+tcoupl          = v-rescale ; velocity rescaling thermostat
+tc_grps         = system	; coupled to entire system
+tau_t           = 1.0		; time constant			
+ref_t           = 300		; temperature (K)
+
+; pressure control
+pcoupl		= no 			; no pressure control in NVT
+
+; velocity generation
+gen_vel		= yes			; generate velocities from Maxwell distribution
+gen_temp	= 300			; temperature for Maxwell distribution
+
+; bond parameters
+continuation	= no			; first dynamics run
+constraints	= none			; all bond lengths constrained
+constraint_algorithm = lincs	; constraint method 
+
+
