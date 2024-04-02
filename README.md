@@ -1,5 +1,5 @@
 # drug_surface_MD
-This repo stores input files and scripts for the paper "Surfactant-polymer complexation and competition on drug crystal surfaces controls crystallinity," by Attia et al. The "structure_files" folder stores the .pdb and .gro input structure files. The "mdp_files" folder stores the .mdp parameter files energy minimization and NVT molecular dynamics. The itp folder stores .itp files for the excipient molecules. The .itp file for the crystal slabs are too large to store on GitHub, and can be accessed upon request. 
+This repo stores input files and scripts for the paper "Surfactant-polymer complexation and competition on drug crystal surfaces controls crystallinity," by Attia et al. The "structure_files" folder stores the .pdb and .gro input structure files. The "mdp_files" folder stores the .mdp parameter files energy minimization and NVT molecular dynamics. The itp folder stores .itp files for the excipient molecules. The .itp files for the drug crystal slabs are too large to store on GitHub, and can be shared upon request. 
 # Topology Maker Script - README
 
 ## Overview
