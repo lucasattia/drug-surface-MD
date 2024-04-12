@@ -21,10 +21,7 @@ nstlist			= 10		; neighbor list update frequency
 ns_type			= grid		; neighbor list method (simple, grid)
 pbc				= xyz 		; periodic boundary conditions
 rlist			= 1.122		; short range cutoff
-;nwall			= 2
-;wall-atomtype   = WL WL
-;wall-type = 12-6
-;wall-r-linpot = 1
+
 
 coulombtype		= PME		; method for electrostatics
 ;ewald_geometry		= 3dc
