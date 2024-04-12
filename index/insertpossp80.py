@@ -8,16 +8,16 @@ import time
 name = 'sp80'
 postxt =  open(name + '_pos.dat','a')
 postxt.write('#     x   y   z\n')
-n = 22 #number of molecules
+n = 262 #number of molecules
 #df = pd.DataFrame(np.random.randint(low=0, high=24, size = (n+1, 2)))
 df = pd.DataFrame(12 * np.ones((n+1,2)))
 xpos = list(df.iloc[:,0])
 ypos = list(df.iloc[:,1])
-zpos_1st = 4
-zpos_2nd = 4
-zpos_3rd = 4
-zpos_4th = 4
-zpos_5th = 4
+zpos_1st = 44
+zpos_2nd = 44
+zpos_3rd = 44
+zpos_4th = 44
+zpos_5th = 44
 zpos_6th = n+1 - zpos_1st - zpos_2nd - zpos_3rd - zpos_4th - zpos_5th
 zpos_first = list(5.5 * np.ones(int(zpos_1st)))
 zpos_second = list(6 * np.ones(int(zpos_2nd)))

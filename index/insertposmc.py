@@ -8,13 +8,13 @@ import time
 name = 'mc'
 postxt =  open(name + 'iso_pos.dat','a')
 postxt.write('#     x   y   z\n')
-n = 54 #number of molecules
+n = 40 #number of molecules
 #df = pd.DataFrame(np.random.randint(low=0, high=24, size = (n+1, 2)))
 df = pd.DataFrame(12 * np.ones((n+1,2)))
 xpos = list(df.iloc[:,0])
 ypos = list(df.iloc[:,1])
-zpos_1st = 18
-zpos_2nd = 18
+zpos_1st = 13
+zpos_2nd = 13
 zpos_3rd = n+1 - zpos_1st - zpos_2nd
 zpos_first = list(7 * np.ones(int(zpos_1st))) #to produce mcaniso_pos.dat, this value is 5.5
 zpos_second = list(7.5 * np.ones(int(zpos_2nd))) #to produce mcaniso_pos.dat, this value is 6
