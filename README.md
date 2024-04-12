@@ -51,14 +51,5 @@ Your contributions and feedback are greatly appreciated in further enhancing the
 
 ## Citation
 
-If you use this script in your work or find it helpful, we kindly request that you consider citing it. Here's an example citation in BibTeX format:
-
-```plaintext
-@software{topology_maker,
-  author = {Your Name},
-  title = {Topology Maker},
-  year = {Year},
-  url = {URL to the script's repository},
-  version = {Version Number},
-}
+If you use this script in your work or find it helpful, we kindly request that you consider citing us. A citation will be added when our manuscript is in press. 
 
