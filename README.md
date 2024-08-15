@@ -53,8 +53,5 @@ Your contributions and feedback are greatly appreciated in further enhancing the
 
 If you use this script in your work or find it helpful, we kindly request that you consider citing us: 
 
-Surfactant–Polymer Complexation and Competition on Drug Nanocrystal Surfaces Control Crystallinity
-Lucas Attia, Dien Nguyen, Devashish Gokhale, Talia Zheng, and Patrick S. Doyle
-ACS Applied Materials & Interfaces Article ASAP
-DOI: 10.1021/acsami.4c06815
+Attia, L., Nguyen, D., Gokhale, D., Zheng, T., & Doyle, P. S. (2024). Surfactant–Polymer Complexation and Competition on Drug Nanocrystal Surfaces Control Crystallinity. ACS Applied Materials & Interfaces.
 
